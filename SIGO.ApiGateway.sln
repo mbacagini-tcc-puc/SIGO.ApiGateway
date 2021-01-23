@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5AC5A82C-F92A-4963-9240-93CAC1946C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIGO.ApiGateway", "src\SIGO.ApiGateway\SIGO.ApiGateway.csproj", "{A43D357D-B6F7-4937-BAFD-74F8DE40D0DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A43D357D-B6F7-4937-BAFD-74F8DE40D0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43D357D-B6F7-4937-BAFD-74F8DE40D0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43D357D-B6F7-4937-BAFD-74F8DE40D0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43D357D-B6F7-4937-BAFD-74F8DE40D0DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A43D357D-B6F7-4937-BAFD-74F8DE40D0DF} = {5AC5A82C-F92A-4963-9240-93CAC1946C86}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD0B524E-46D3-4994-93D1-DA4D175192D6}
+	EndGlobalSection
+EndGlobal

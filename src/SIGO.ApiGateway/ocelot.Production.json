@@ -1,0 +1,30 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sigo-loadbalancer-1170437824.sa-east-1.elb.amazonaws.com",
+          "Port": 9090
+        }
+      ],
+      "UpstreamPathTemplate": "/usuarios/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
+    },
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sigo-loadbalancer-1170437824.sa-east-1.elb.amazonaws.com",
+          "Port": 9091
+        }
+      ],
+      "UpstreamPathTemplate": "/consultorias/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
+    }
+  ],
+  "GlobalConfiguration": {
+  }
+}

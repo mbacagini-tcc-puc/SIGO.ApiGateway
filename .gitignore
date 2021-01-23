@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/SIGO.ApiGateway
+/src/SIGO.ApiGateway/bin/Debug/netcoreapp3.1
+/src/SIGO.ApiGateway/obj
